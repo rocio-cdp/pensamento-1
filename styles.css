@@ -2,7 +2,7 @@ body {
     color: white;
     background: rgb(4, 6, 145);
     margin: 0px;
-    margin-bottom: 80px;
+    margin-bottom: 100px;
 }
 
 header {
@@ -56,4 +56,9 @@ p {
 
 .categoria h2 {
     color: rgb(224, 45, 0);
+}
+.video-direita {
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 40px; /* você pode ajustar esse valor */
 }
