@@ -57,8 +57,20 @@ p {
 .categoria h2 {
     color: rgb(224, 45, 0);
 }
-.video-direita {
+
+.conteudo {
   display: flex;
-  justify-content: flex-end;
-  padding-right: 40px; /* você pode ajustar esse valor */
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px;
+  gap: 40px;
 }
+
+.texto {
+  flex: 1;
+}
+
+.video {
+  flex: 1;
+  display: flex;
+  justify-co
